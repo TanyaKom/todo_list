@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>To do list</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <input type="text" class="add-task-field" id="input" placeholder="Type here to add a task..." size="80">
+            <button id="button" type="button">+ Add</button>  
+        </header>
+       <hr>
+        <div class="list-container">
+            <div id="emptylist" class="emptylist">To do list is empty</div>
+            <ul id="task-list">
+                <li class="list task">
+                    <span class="task-title"></span>
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <div class="footer-btn-container">
+                <button id="footer-btn" type="button">
+                <img src="./pictures/basket.png" alt="basket">Clear all tasks
+                </button>
+            </div>
+        </footer>
+        <script src="./script.js"></script>
+        <script src="./cookies.js"></script>
+    </div>
+</body>
+</html>

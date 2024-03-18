@@ -1,0 +1,123 @@
+body {
+    background-color: #F2F5F7;
+    height: 100%;
+}
+hr {
+    border: 0;
+    height: 2px;
+    box-shadow: 0px 2px 1px #DEDFE5;
+    margin-top: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    border: none;
+    padding: 20px;
+    width: 100%; 
+    height: auto;
+}
+input:focus {
+    outline: none;
+}
+input[type="checkbox"] {
+    width: 30px;
+}
+input[type="text"] {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    white-space: wrap;
+}
+.container {
+    margin: 78px 500px;
+    width: 700px;
+    height: 800px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px #DEDFE5;
+    position: relative; 
+}
+#button {
+    width: 80px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #00AE1C;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    margin: 10px 15px;
+}
+#button:hover {
+    background-color: #03de27;
+}
+#emptylist {
+    text-align: center;
+    margin-top: 25px;
+}
+ul {
+    list-style: none; 
+} 
+.task-item{
+    width: 623px;
+    min-height: 48px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #DEDFE5;
+    box-shadow: 0 2px 2px #DEDFE5;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 15px;
+}
+.task-item:hover {
+    background-color: #DEDFE5;
+}
+.task-text {
+    word-wrap: break-word;
+    width: 520px;
+    height: auto;
+    margin: 10px;
+    min-width: 100px;
+}
+/* .task-text input {
+    margin-right: 30px;
+} */
+.delete-btn-container {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.edit-btn-container {
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#footer-btn {
+    width: 300px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid #DEDFE5;
+    cursor: pointer;
+    position: absolute;
+    bottom: -60px;
+    left: 30%;
+}
+#footer-btn:hover {
+    background-color: #DEDFE5;
+}
+#footer-btn img {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
